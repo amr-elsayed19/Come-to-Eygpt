@@ -1,0 +1,688 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EGYPT</title>
+    <!-- font awesome -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <!-- css bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <!-- my css -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="bg-light">
+    <!-- start navbar -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary nav-tabs">
+        <div class="container-fluid">
+            <div class="logo flex align-items-start w-50">
+                <a class="me-2" href="#"><img src="imgs/logo.png" class="w-8" alt=""></a>
+                <a class="navbar-brand px-2 text-info" href="#" class="">EGYPT</a>
+            </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link text-dark border border-info rounded me-2" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-info rounded me-2" aria-current="page" href="#">Vsitors</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-info rounded me-2" aria-current="page" href="#">prices</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-info rounded me-2" href="#">Link</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-info rounded me-2" href="#" role="button" data-bs-toggle="dropdown"    aria-expanded="false">
+                        Trips
+                        </a>
+                        <ul class="dropdown-menu bg-body-tertiary">
+                            <li><a class="dropdown-item me-2" href="#">Cairo</a></li>
+                            <li><a class="dropdown-item me-2" href="#">Alexandria</a></li>
+                            <li><a class="dropdown-item me-2" href="#">Luxur</a></li>
+                            <li><a class="dropdown-item me-2" href="#">Aswan</a></li>
+                            <li><a class="dropdown-item me-2" href="#">Marsa Matrouh</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item me-2" href="#">More...</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-info rounded me-2" aria-disabled="true">About</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2 text-info" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-info" type="submit">Search</button>
+                </form>
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-outline-info ms-2 fs-6" data-bs-toggle="modal" data-bs-target="#FFF">
+                    Login
+                </button>
+                
+                <!-- Modal -->
+                <div class="modal fade " id="FFF" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header  bg-info">
+                                <h1 class="modal-title fs-5 text-light" id="exampleModalLabel">Login</h1>
+                                <button type="button" class="btn-close bg-light" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <form>
+                                    <div class="mb-3">
+                                        <label for="email" class="col-form-label text-info">Email adress</label>
+                                        <input id="email" type="email" class="form-control">
+                                        <p class="text-secondry">We'll never share your e-mail with anyone else</p>
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="password" class="col-form-label text-info">Password</label>
+                                        <input id="password" type="password" class="form-control">
+                                    </div>
+                                    <div class="form-check form-switch">
+                                        <input id="switch" type="checkbox" class="form-check-input bg-body-secondary" checked>
+                                        <label for="switch">Remember Me</label>
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-info text-light" data-bs-dismiss="modal">Login</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- start main landing -->
+    <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active " style="height: calc(100vh - 60px);">
+            <img src="imgs/cairo.jpg" class="d-block w-100 h-100" alt="...">
+            <div class="carousel-caption d-md-block bg-info rounded-4 text-light bg-opacity-50">
+                <h3>Cairo</h3>
+                <p>Some representative placeholder content for the first slide.</p>
+                <button class="btn bg-info text-light">Visit Us</button>
+            </div>
+            </div>
+
+            <div class="carousel-item"  style="height:  calc(100vh - 60px);">
+            <img src="imgs/alexandria.jpg" class="d-block w-100  h-100" alt="...">
+            <div class="carousel-caption d-md-block bg-info rounded-4 text-light bg-opacity-50">
+                <h3>Alexandria</h3>
+                <p>Some representative placeholder content for the second slide.</p>
+                <button class="btn bg-info text-light">Visit Us</button>
+            </div>
+            </div>
+
+            <div class="carousel-item" style="height:  calc(100vh - 60px);">
+            <img src="imgs/aswan.jpg" class="d-block w-100  h-100" alt="...">
+            <div class="carousel-caption d-md-block bg-info rounded-4 text-light bg-opacity-50">
+                <h3>Aswan</h3>
+                <p>Some representative placeholder content for the third slide.</p>
+                <button class="btn bg-info text-light">Visit Us</button>
+            </div>
+            </div>
+
+            <div class="carousel-item" style="height:  calc(100vh - 60px);">
+            <img src="imgs/matrouh.jpg" class="d-block w-100  h-100" alt="...">
+            <div class="carousel-caption d-md-block bg-info rounded-4 text-light bg-opacity-50">
+                <h3>Marsa Matrouh</h3>
+                <p>Some representative placeholder content for the third slide.</p>
+                <button class="btn bg-info text-light">Visit Us</button>
+            </div>
+            </div>
+
+            <div class="carousel-item" style="height:  calc(100vh - 60px);">
+            <img src="imgs/luxor.jpg" class="d-block w-100  h-100" alt="...">
+            <div class="carousel-caption d-md-block bg-info rounded-4 text-light bg-opacity-50">
+                <h3>Luxor</h3>
+                <p>Some representative placeholder content for the third slide.</p>
+                <button class="btn bg-info text-light">Visit Us</button>
+            </div>
+            </div>
+
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+
+        <!-- icons -->
+        <div class="icons z-3 position-fixed top-50 end-0 translate-middle me-2" style="z-index: 100;">
+            <ul>
+                <li class="p-2 my-2 rounded text-info-emphasis"><i class="fa-brands fa-square-facebook fs-1"></i></li>
+                <li class="p-2 my-2 rounded text-info-emphasis"><i class="fa-brands fa-square-instagram fs-1"></i></li>
+                <li class="p-2 my-2 rounded text-info-emphasis"><i class="fa-brands fa-square-whatsapp fs-1"></i></li>
+                <li class="p-2 my-2 rounded text-info-emphasis"><i class="fa-brands fa-square-twitter fs-1"></i></li>
+            </ul>
+        </div>
+    </div>
+    <!-- end main landing -->
+    <!-- start welcome -->
+    <div class="welcome bg-info bg-opacity-50 p-4 rounded-bottom">
+        <p class="h3 text-info-emphasis">Welcome</p>
+        <p class="text-secondry">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi, aperiam quibusdam! Inventore suscipit dignissimos veritatis modi eius praesentium ea enim non natus nobis excepturi vel molestiae, illum, a placeat nulla!</p>
+        <button class="btn bg-info"><a class="text-light" href="#">learn more</a></button>
+    </div>
+    <!-- end welcome -->
+    <hr>
+    <!-- start accordion -->
+    <p class="h2 text-center bg-info-subtle text-colored py-4 rounded mb-0">Popular destinations in Egypt</p>
+
+    <div class="accordion" id="accordionExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed fs-4 text-dark bg-light-grad fw-Semibold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              Cairo
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+            <div class="accordion-body fw-lighter fst-italic bg-dark bg-opacity-10">
+              <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the , though the transition does limit overflow.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed fs-4 text-dark bg-light-grad fw-Semibold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              Alexandria
+            </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body fw-lighter fst-italic bg-dark bg-opacity-10">
+              <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the , though the transition does limit overflow.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed fs-4 text-dark bg-light-grad fw-Semibold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              Aswan
+            </button>
+          </h2>
+          <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body fw-lighter fst-italic bg-dark bg-opacity-10">
+              <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the , though the transition does limit overflow.
+            </div>
+          </div>
+        </div>
+    </div>
+    <!-- end accordion -->
+    <hr>
+
+    <!-- start translation  -->
+    <!-- translation 1 -->
+    <p class="h2 text-center bg-info-subtle text-colored py-4 rounded mb-0 shadow">Translate from Arabic to English</p>
+    <div class="p-4 bg-info bg-opacity-10 rounded">
+        <p class="h5 text-info-emphasis mb-3">Write and translate</p>
+        <!-- modal 1 -->
+        <!-- Button trigger modal -->
+    <button type="button" class="btn btn-info text-light" data-bs-toggle="modal" data-bs-target="#copy1">
+        copy
+    </button>
+    
+    <!-- Modal -->
+    <div class="modal fade" id="copy1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">3mr_1_9 says</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+            Copied to English
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-info text-light" data-bs-dismiss="modal">ok</button>
+            </div>
+        </div>
+        </div>
+    </div>
+        <!-- end modal -->
+        <textarea class="d-block mt-3 rounded w-100 p-2 form-control text-dark" rows="5" placeholder="Write here"></textarea>
+    </div>
+    <hr>
+    <!-- translation 2 -->
+    <p class="h2 text-center bg-info-subtle text-colored py-4 rounded mb-0 shadow">Translate from Arabic to French</p>
+    <div class="p-4 bg-info bg-opacity-10 rounded">
+        <p class="h5 text-info-emphasis mb-3">Write and translate</p>
+        <!-- modal 2 -->
+        <!-- Button trigger modal -->
+    <button type="button" class="btn btn-info text-light" data-bs-toggle="modal" data-bs-target="#copy2">
+        copy
+    </button>
+    
+    <!-- Modal -->
+    <div class="modal fade" id="copy2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">3mr_1_9 says</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+            Copied to French
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-info text-light" data-bs-dismiss="modal">ok</button>
+            </div>
+        </div>
+        </div>
+    </div>
+        <!-- end modal -->
+        <textarea class="d-block mt-3 rounded w-100 p-2 form-control text-dark" rows="5" placeholder="Write here"></textarea>
+    </div>
+    <hr>
+    <!-- translation 3 -->
+    <p class="h2 text-center bg-info-subtle text-colored py-4 rounded mb-0 shadow">Translate from Arabic to Deutch</p>
+    <div class="p-4 bg-info bg-opacity-10 rounded">
+        <p class="h5 text-info-emphasis mb-3">Write and translate</p>
+        <!-- modal 3 -->
+        <!-- Button trigger modal -->
+    <button type="button" class="btn btn-info text-light" data-bs-toggle="modal" data-bs-target="#copy3">
+        copy
+    </button>
+    <!-- Modal -->
+    <div class="modal fade" id="copy3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">3mr_1_9 says</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+            Copied to Deutch
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-info text-light" data-bs-dismiss="modal">ok</button>
+            </div>
+        </div>
+        </div>
+    </div>
+        <!-- end modal -->
+        <textarea class="d-block mt-3 rounded w-100 p-2 form-control text-dark" rows="5" placeholder="Write here"></textarea>
+    </div>
+    <!-- end translation  -->
+    <!-- photo -->
+    <div class="photo1 w-100"></div>
+    <!-- end photo -->
+    <!-- start cards  -->
+    <div class="cards mb-4">
+        <p class="h2 text-center bg-info-subtle text-colored py-4 rounded mb-4 shadow">Popular destinations in Egypt</p>
+        <div class=" row justify-content-evenly gap-3">
+            <div class="card col-12 col-md-4 col-lg-3 mb-4" >
+                <img src="imgs/c7.jpg" class="card-img-top" style="height: 300px !important;" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title text-info-emphasis">Cairo</h5>
+                    <p class="card-text text-secondry">The capital of Egypt</p>
+                    <a href="#" class="btn btn-info text-light">learn more</a>
+                </div>
+            </div>
+            <div class="card col-12 col-md-4 col-lg-3 mb-4" >
+                <img src="imgs/c1.jpeg" class="card-img-top" style="height: 300px !important;" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title text-info-emphasis">Giza</h5>
+                    <p class="card-text text-secondry">The land of Pharos</p>
+                    <a href="#" class="btn btn-info text-light">learn more</a>
+                </div>
+            </div>
+            <div class="card col-12 col-md-4 col-lg-3 mb-4" >
+                <img src="imgs/c2.jpg" class="card-img-top" style="height: 300px !important;" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title text-info-emphasis">Alexandria</h5>
+                    <p class="card-text text-secondry">The bride of the sea</p>
+                    <a href="#" class="btn btn-info text-light">learn more</a>
+                </div>
+            </div>
+            <div class="card col-12 col-md-4 col-lg-3 mb-4" >
+                <img src="imgs/c3.jpeg" class="card-img-top" style="height: 300px !important;" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title text-info-emphasis">Luxor</h5>
+                    <p class="card-text text-secondry">The center of treasures</p>
+                    <a href="#" class="btn btn-info text-light">learn more</a>
+                </div>
+            </div>
+            <div class="card col-12 col-md-4 col-lg-3 mb-4" >
+                <img src="imgs/c3.jpg" class="card-img-top" style="height: 300px !important;" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title text-info-emphasis">Aswan</h5>
+                    <p class="card-text text-secondry">The real meaning of beuaty</p>
+                    <a href="#" class="btn btn-info text-light">learn more</a>
+                </div>
+            </div>
+            <div class="card col-12 col-md-4 col-lg-3 mb-4" >
+                <img src="imgs/c4.jpg" class="card-img-top" style="height: 300px !important;" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title text-info-emphasis">Marsa Matrouh</h5>
+                    <p class="card-text text-secondry">The new town of quite</p>
+                    <a href="#" class="btn btn-info text-light">learn more</a>
+                </div>
+            </div>
+            <div class="card col-12 col-md-4 col-lg-3 mb-4" >
+                <img src="imgs/c5.jpg" class="card-img-top" style="height: 300px !important;" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title text-info-emphasis">The Red Sea town</h5>
+                    <p class="card-text text-secondry">The capital of <strong>diving</strong></p>
+                    <a href="#" class="btn btn-info text-light">learn more</a>
+                </div>
+            </div>
+            <div class="card col-12 col-md-4 col-lg-3 mb-4" >
+                <img src="imgs/c6.jpg" class="card-img-top" style="height: 300px !important;" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title text-info-emphasis">Sina'a</h5>
+                    <p class="card-text text-secondry">The beuaty of desert</p>
+                    <a href="#" class="btn btn-info text-light">learn more</a>
+                </div>
+            </div>
+            <div class="card col-12 col-md-4 col-lg-3 mb-4" >
+                <img src="imgs/c8.jpg" class="card-img-top" style="height: 300px !important;" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title text-info-emphasis">Kafr El-Sheikh</h5>
+                    <p class="card-text text-secondry">New town</p>
+                    <a href="#" class="btn btn-info text-light">learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end cards  -->
+    <!-- photo -->
+    <div class="photo2 w-100"></div>
+    <!-- end photo -->
+    <!-- start thanks for  -->
+    <p class="h2 text-center bg-info-subtle text-colored py-4 rounded mb-5 shadow">Our Effetive Members</p>
+    <div class="container">
+        <div class="row justify-content-evenly gap-3">
+            <div class="cart col-12 col-md-4 col-lg-3" >
+                <div class="overlay1 rounded-4">
+                    <div class="main rounded-4 bg-info bg-opacity-50 p-4">
+                            <p class="h4 text-info-emphasis text-center mb-4">All thanks and apprecians</p>
+                        <div class="mini">
+                            <i class="fa-regular fa-clock text-light"></i>
+                            <span class="text-light">October 29, 2023</span>
+                        </div>
+                        <img class="img-fluid img-thumbnail rounded-pill mt-5 mb-2" src="imgs/avatar-01.png" style="width: 65px;" alt="">
+                        <div class="text">
+                            <p class="h4 text-dark">Eng : Amr Elsayed</p>
+                            <span class="text-light fs-5">Front-end web developer</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="cart col-12 col-md-4 col-lg-3" >
+                <div class="overlay2 rounded-4">
+                    <div class="main rounded-4 bg-info bg-opacity-50 p-4">
+                            <p class="h4 text-info-emphasis text-center mb-4">All thanks and apprecians</p>
+                        <div class="mini">
+                            <i class="fa-regular fa-clock text-light"></i>
+                            <span class="text-light">October 29, 2023</span>
+                        </div>
+                        <img class="img-fluid img-thumbnail rounded-pill mt-5 mb-2" src="imgs/avatar-02.png" style="width: 65px;" alt="">
+                        <div class="text">
+                            <p class="h4 text-dark">Eng : Ahmed Abdo</p>
+                            <span class="text-light fs-5">Front-end web developer</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="cart col-12 col-md-4 col-lg-3" >
+                <div class="overlay3 rounded-4">
+                    <div class="main rounded-4 bg-info bg-opacity-50 p-4 ">
+                            <p class="h4 text-info-emphasis text-center mb-4">All thanks and apprecians</p>
+                        <div class="mini">
+                            <i class="fa-regular fa-clock text-light"></i>
+                            <span class="text-light">October 29, 2023</span>
+                        </div>
+                        <img class="img-fluid img-thumbnail rounded-pill mt-5 mb-2" src="imgs/avatar-05.png" style="width: 65px;" alt="">
+                        <div class="text">
+                            <p class="h4 text-dark">Eng : Amr KHaled</p>
+                            <span class="text-light fs-5">Front-end web developer</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end thanks for  -->
+    <hr>
+    <!-- start news -->
+    <p class="h2 text-center bg-info-subtle text-colored py-4 rounded mb-5 shadow">Egypt News</p>
+    <div class="container news">
+        <div class="card mb-4 mx-4 shadow overflow-hidden" >
+            <div class="row g-0">
+                <div class="im col-md-4 bg-light">
+                    <img src="imgs/n1.jpg" class="img-fluid rounded-start h-100" style="clip-path: polygon(0 0, 100% 0%, 88% 100%, 0 100%);" alt="...">
+                </div>
+                <div class="col-md-8 bg-light py-2">
+                    <div class="card-body">
+                    <h5 class="card-title mb-4">The vistial of Gouna</h5>
+                    <div class="con mb-2 py-2">
+                        <i class="fa-solid fa-calendar-days text-info-emphasis me-2"></i>
+                        <span class="text-info-emphasis">Mon, october 15, 2023</span>
+                    </div>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, at. Animi commodi incidunt quaerat repudiandae amet tempora assumenda impedit sunt doloremque at dicta sint delectus eveniet, neque corrupti odio expedita.</p>
+                    <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                    <div class="row" style="width: 300px; margin-left: 1px !important;">
+                        <div class="vist col bg-info text-light p-1 rounded align-items-center me-2 w-auto">
+                            <i class="fa-solid fa-podcast text-info-emphasis me-1"></i>
+                            <span class="fs-6">podcast</span>
+                        </div>
+                        <div class="vist col bg-info text-light p-1 rounded align-items-center me-2 w-auto">
+                            <i class="fa-solid fa-clock text-info-emphasis me-1"></i>
+                            <span class="fs-6">podcast</span>
+                        </div>
+                        <div class="vist col bg-info text-light p-1 rounded align-items-center me-2 w-auto">
+                            <i class="fa-solid fa-podcast text-info-emphasis me-1"></i>
+                            <span class="fs-6">podcast</span>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card mb-4 mx-4 shadow overflow-hidden" >
+            <div class="row g-0">
+                
+                <div class="col-md-8 bg-light py-2">
+                    <div class="card-body">
+                    <h5 class="card-title mb-4">The vistial of Gouna</h5>
+                    <div class="con mb-2 py-2">
+                        <i class="fa-solid fa-calendar-days text-info-emphasis me-2"></i>
+                        <span class="text-info-emphasis">Mon, october 15, 2023</span>
+                    </div>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, at. Animi commodi incidunt quaerat repudiandae amet tempora assumenda impedit sunt doloremque at dicta sint delectus eveniet, neque corrupti odio expedita.</p>
+                    <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                    <div class="row" style="width: 300px; margin-left: 1px !important;">
+                        <div class="vist col bg-info text-light p-1 rounded align-items-center me-2 w-auto">
+                            <i class="fa-solid fa-podcast text-info-emphasis me-1"></i>
+                            <span class="fs-6">podcast</span>
+                        </div>
+                        <div class="vist col bg-info text-light p-1 rounded align-items-center me-2 w-auto">
+                            <i class="fa-solid fa-clock text-info-emphasis me-1"></i>
+                            <span class="fs-6">podcast</span>
+                        </div>
+                        <div class="vist col bg-info text-light p-1 rounded align-items-center me-2 w-auto">
+                            <i class="fa-solid fa-podcast text-info-emphasis me-1"></i>
+                            <span class="fs-6">podcast</span>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                <div class="im col-md-4 bg-light">
+                    <img src="imgs/n2.jpg" class="img-fluid rounded-start h-100" style="clip-path: polygon(0 0, 100% 0, 100% 100%, 12% 100%);" alt="...">
+                </div>
+            </div>
+        </div>
+        <div class="card mb-4 mx-4 shadow overflow-hidden" >
+            <div class="row g-0">
+                <div class="im col-md-4 bg-light">
+                    <img src="imgs/n3.jpg" class="img-fluid rounded-start h-100" style="clip-path: polygon(0 0, 100% 0%, 88% 100%, 0 100%);" alt="...">
+                </div>
+                <div class="col-md-8 bg-light py-2">
+                    <div class="card-body">
+                    <h5 class="card-title mb-4">The vistial of Gouna</h5>
+                    <div class="con mb-2 py-2">
+                        <i class="fa-solid fa-calendar-days text-info-emphasis me-2"></i>
+                        <span class="text-info-emphasis">Mon, october 15, 2023</span>
+                    </div>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, at. Animi commodi incidunt quaerat repudiandae amet tempora assumenda impedit sunt doloremque at dicta sint delectus eveniet, neque corrupti odio expedita.</p>
+                    <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                    <div class="row" style="width: 300px; margin-left: 1px !important;">
+                        <div class="vist col bg-info text-light p-1 rounded align-items-center me-2 w-auto">
+                            <i class="fa-solid fa-podcast text-info-emphasis me-1"></i>
+                            <span class="fs-6">podcast</span>
+                        </div>
+                        <div class="vist col bg-info text-light p-1 rounded align-items-center me-2 w-auto">
+                            <i class="fa-solid fa-clock text-info-emphasis me-1"></i>
+                            <span class="fs-6">podcast</span>
+                        </div>
+                        <div class="vist col bg-info text-light p-1 rounded align-items-center me-2 w-auto">
+                            <i class="fa-solid fa-podcast text-info-emphasis me-1"></i>
+                            <span class="fs-6">podcast</span>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card mb-4 mx-4 shadow overflow-hidden" >
+            <div class="row g-0">
+                
+                <div class="col-md-8 bg-light py-2">
+                    <div class="card-body">
+                    <h5 class="card-title mb-4">The vistial of Gouna</h5>
+                    <div class="con mb-2 py-2">
+                        <i class="fa-solid fa-calendar-days text-info-emphasis me-2"></i>
+                        <span class="text-info-emphasis">Mon, october 15, 2023</span>
+                    </div>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, at. Animi commodi incidunt quaerat repudiandae amet tempora assumenda impedit sunt doloremque at dicta sint delectus eveniet, neque corrupti odio expedita.</p>
+                    <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                    <div class="row" style="width: 300px; margin-left: 1px !important;">
+                        <div class="vist col bg-info text-light p-1 rounded align-items-center me-2 w-auto">
+                            <i class="fa-solid fa-podcast text-info-emphasis me-1"></i>
+                            <span class="fs-6">podcast</span>
+                        </div>
+                        <div class="vist col bg-info text-light p-1 rounded align-items-center me-2 w-auto">
+                            <i class="fa-solid fa-clock text-info-emphasis me-1"></i>
+                            <span class="fs-6">podcast</span>
+                        </div>
+                        <div class="vist col bg-info text-light p-1 rounded align-items-center me-2 w-auto">
+                            <i class="fa-solid fa-podcast text-info-emphasis me-1"></i>
+                            <span class="fs-6">podcast</span>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                <div class="im col-md-4 bg-light">
+                    <img src="imgs/n2.jpg" class="img-fluid rounded-start h-100" style="clip-path: polygon(0 0, 100% 0, 100% 100%, 12% 100%);" alt="...">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end news -->
+    <!-- start join us -->
+    <p class="h2 text-center bg-info-subtle text-colored py-4 rounded mb-5 shadow">Join Us</p>
+    <div class="join container mb-5">
+        <div class="row gap-3 gap-md-5">
+            <div class="col-12 col-md-3 col-lg shadow text-center bg-body-secondary rounded-4 py-4">
+                <p class="h4 text-primary fs-3">Follow Us</p>
+                <i class="fa-brands fa-square-facebook d-block fs-1 text-light bg-primary p-2 rounded shadow" style="width: 50px !important; margin: 20px auto !important;"></i>
+                <a href="#" class="text-primary bg-dark rounded px-2 py-1 fs-5">Go to link</a>
+            </div>
+            <div class="col-12 col-md-3 col-lg shadow text-center bg-body-secondary rounded-4 py-4">
+                <p class="h4 text-info fs-3">Follow Us</p>
+                <i class="fa-brands fa-instagram d-block fs-1 icon-colored bg-light p-2 rounded shadow" style="width: 50px !important; margin: 20px auto !important;"></i>
+                <a href="#" class="text-danger bg-dark rounded px-2 py-1 fs-5">Go to link</a>
+            </div>
+            <div class="col-12 col-md-3 col-lg shadow text-center bg-body-secondary rounded-4 py-4">
+                <p class="h4 text-success fs-3">Follow Us</p>
+                <i class="fa-brands fa-whatsapp d-block fs-1 text-light bg-success p-2 rounded shadow" style="width: 50px !important; margin: 20px auto !important;"></i>
+                <a href="#" class="text-success bg-dark rounded px-2 py-1 fs-5">Go to link</a>
+            </div>
+            <div class="col-12 col-md-3 col-lg shadow text-center bg-body-secondary rounded-4 py-4">
+                <p class="h4 text-info fs-3">Follow Us</p>
+                <i class="fa-brands fa-twitter d-block fs-1 text-light bg-info p-2 rounded shadow" style="width: 50px !important; margin: 20px auto !important;"></i>
+                <a href="#" class="text-info bg-dark rounded px-2 py-1 fs-5">Go to link</a>
+            </div>
+        </div>
+    </div>
+    <!-- end join us -->
+    <!-- start footer -->
+    <div class="footer bg-info pt-5 pb-4 mt-4">
+        <div class="container">
+            <div class="row gap-4">
+                <div class="col align-items-center p-2 border-top border-bottom text-center">
+                    <img src="imgs/logo.png" class="shadow-lg rounded-pill me-2" style="width: 70px !important;" alt="">
+                    <span class="text-light fs-5 fw-medium">Our Address</span>
+                </div>
+                <div class="col align-items-center p-2 border-top border-bottom text-center">
+                    <img src="imgs/logo.png" class="shadow-lg rounded-pill me-2" style="width: 70px !important;" alt="">
+                    <span class="text-light fs-5 fw-medium">Our links</span>
+                </div>
+                <div class="col align-items-center p-2 border-top border-bottom text-center">
+                    <img src="imgs/logo.png" class="shadow-lg rounded-pill me-2" style="width: 70px !important;" alt="">
+                    <span class="text-light fs-5 fw-medium">Our Vision</span>
+                </div>
+            </div>
+            <div class="row gap-4 mt-4">
+                <div class="col text-center">
+                    <div class="ii1 mb-4">
+                        <i class="fa-solid fa-location-dot text-info-emphasis me-2 ms-3 fs-4" style="width: 40px !important;"></i> <span class="text-light">Ma'adi, Cairo, Egypt</span><br>
+                    </div>
+                    <div class="ii1 mb-4">
+                        <i class="fa-solid fa-headset text-info-emphasis me-2 fs-4" style="width: 40px !important;"></i> <span class="text-light">+2 0101 895 5421</span><br>
+                    </div>
+                    <div class="ii1 mb-4">
+                        <i class="fa-solid fa-phone text-info-emphasis me-2 fs-4" style="width: 40px !important;"></i> <span class="text-light">+2 0115 481 5170</span>
+                    </div>
+                </div>
+                <div class="links col text-center d-flex">
+                    <ul>
+                        <li class="mb-4"><a href="#" class="fs-5 text-light">visit us</a> </li>
+                        <li class="mb-4"><a href="#" class="fs-5 text-light">contact us</a> </li>
+                        <li class="mb-4"><a href="#" class="fs-5 text-light">services</a> </li>
+                    </ul>
+                    <ul>
+                        <li class="mb-4"><a href="#" class="fs-5 text-light">visit us</a> </li>
+                        <li class="mb-4"><a href="#" class="fs-5 text-light">contact us</a> </li>
+                        <li class="mb-4"><a href="#" class="fs-5 text-light">services</a> </li>
+                    </ul>
+                    <ul>
+                        <li class="mb-4"><a href="#" class="fs-5 text-light">visit us</a> </li>
+                        <li class="mb-4"><a href="#" class="fs-5 text-light">contact us</a> </li>
+                        <li class="mb-4"><a href="#" class="fs-5 text-light">services</a> </li>
+                    </ul>
+                </div>
+                <div class="col text-center">
+                    <p class="text-light mb-3 fs-4">Services for all</p>
+                    <p class="text-light mb-3 fs-4">provide best services</p>
+                    <p class="text-light mb-3 fs-4">You will better than before</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end footer -->
+
+    <!-- <script src="js/popper.min.js"></script>
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/bootstrap.js"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+</body>
+</html>
